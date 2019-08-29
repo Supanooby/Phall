@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="256">
+ <tileset firstgid="1" source="tileset_gutter.tsx"/>
+ <layer id="1" name="background" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztw7ENAAAMAiDT/z928YpukNBLqqqqqqqqqqqqqqqq+ngvgAwl
+  </data>
+ </layer>
+ <layer id="2" name="graphics" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1cEJwzAMhWE5+NKO0m7QVbJKNk8L9a0Q3IQ0DyKp/wc6BAtHYB4yAwAAns3F7NnqVTR9ql71/1Q9e2dDbCNvDIQ1Bcvv3t2i3FlrPWfsT/ZxfnXjPFp+gX9RzW9+h0UB+KjmO78A+qqR3wweG9/IZ5ld8gvE0Mtutvxe2rxX0czKu4AjvmU3W35vbd67aGblXcCv1rLrMb9FUPNwvBRzZC71m3mvnrNn8lhvb4pNqA==
+  </data>
+ </layer>
+ <objectgroup id="3" name="ground">
+  <object id="237" x="16" y="96" width="64" height="16"/>
+  <object id="239" x="0" y="192" width="270" height="16.5"/>
+  <object id="241" x="544" y="192" width="768" height="16"/>
+  <object id="244" x="1312" y="192" width="240" height="16"/>
+  <object id="245" x="1552" y="192" width="144" height="16"/>
+  <object id="246" x="1744" y="192" width="912" height="16"/>
+  <object id="247" x="2736" y="192" width="1104" height="16"/>
+  <object id="248" x="3136" y="176" width="128" height="16"/>
+  <object id="249" x="3152" y="160" width="112" height="16"/>
+  <object id="250" x="3168" y="144" width="96" height="16"/>
+  <object id="251" x="3184" y="128" width="80" height="16"/>
+  <object id="252" x="3200" y="112" width="64" height="16"/>
+  <object id="253" x="3216" y="96" width="48" height="16"/>
+  <object id="254" x="3232" y="80" width="32" height="16"/>
+  <object id="255" x="3248" y="64" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="4" name="pipes"/>
+ <objectgroup id="5" name="coins">
+  <object id="242" x="1184" y="128" width="16" height="16">
+   <ellipse/>
+  </object>
+  <object id="243" x="1248" y="128" width="16" height="16">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="bricks"/>
+</map>
